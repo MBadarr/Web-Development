@@ -18,8 +18,8 @@
                 <input type="text" name="name" id="name" class="form-control" placeholder="Enter Your Name" required>
             </div>
             <div class="form-group">
-                <label for="name" id="name-label">Email</label>
-                <input type="text" name="name" id="name" class="form-control" placeholder="Enter Your Email" required>
+                <label for="name" id="email-label">Email</label>
+                <input type="email" name="name" id="email" class="form-control" placeholder="Enter Your Email" required>
             </div>
             <div class="form-group">
                 <label for="number" id="number-label">Age<span class="clue">(optional)</span></label>
@@ -54,17 +54,17 @@
               </div>
               <div class="from-group">
                   <p>Who would you like to see improved?<span class="clue">(check all that apply)</span></p>
-                  <label><input type="checkbox" name="prefer" id="checkbox" class="input-checkbox">Front-end Projects</label>
-                  <label><input type="checkbox" name="prefer" id="checkbox" class="input-checkbox">Back-end Projects</label>
-                  <label><input type="checkbox" name="prefer" id="checkbox" class="input-checkbox">Data Visualization</label>
-                  <label><input type="checkbox" name="prefer" id="checkbox" class="input-checkbox">Challenges</label>
-                  <label><input type="checkbox" name="prefer" id="checkbox" class="input-checkbox">Open Source Community</label>
-                  <label><input type="checkbox" name="prefer" id="checkbox" class="input-checkbox">Gitter help rooms</label>
-                  <label><input type="checkbox" name="prefer" id="checkbox" class="input-checkbox">Videos</label>
-                  <label><input type="checkbox" name="prefer" id="checkbox" class="input-checkbox">City Meetups</label>
-                  <label><input type="checkbox" name="prefer" id="checkbox" class="input-checkbox">Wiki</label>
-                  <label><input type="checkbox" name="prefer" id="checkbox" class="input-checkbox">Forum</label>
-                  <label><input type="checkbox" name="prefer" id="checkbox" class="input-checkbox">Additional Courses</label>
+                  <label><input type="checkbox" value="front-end-projects" name="prefer" id="checkbox" class="input-checkbox">Front-end Projects</label>
+                  <label><input type="checkbox" value="back-end-projects" name="prefer" id="checkbox" class="input-checkbox">Back-end Projects</label>
+                  <label><input type="checkbox" value="data-visualization" name="prefer" id="checkbox" class="input-checkbox">Data Visualization</label>
+                  <label><input type="checkbox" value="challenges" name="prefer" id="checkbox" class="input-checkbox">Challenges</label>
+                  <label><input type="checkbox" value="open-source-community" name="prefer" id="checkbox" class="input-checkbox">Open Source Community</label>
+                  <label><input type="checkbox" value="glitter-help-rooms" name="prefer" id="checkbox" class="input-checkbox">Gitter help rooms</label>
+                  <label><input type="checkbox" value="videos" name="prefer" id="checkbox" class="input-checkbox">Videos</label>
+                  <label><input type="checkbox" value="city-meetups" name="prefer" id="checkbox" class="input-checkbox">City Meetups</label>
+                  <label><input type="checkbox" value="wiki" name="prefer" id="checkbox" class="input-checkbox">Wiki</label>
+                  <label><input type="checkbox" value="forum" name="prefer" id="checkbox" class="input-checkbox">Forum</label>
+                  <label><input type="checkbox" value="additional-courses" name="prefer" id="checkbox" class="input-checkbox" value="additional-courses">Additional Courses</label>
               </div>
               <div class="form-group">
                   <p>Any comments or suggestions?</p>
@@ -75,5 +75,6 @@
               </div>
         </form>
     </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
