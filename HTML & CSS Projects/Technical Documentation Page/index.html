@@ -95,7 +95,64 @@
         <section class="main-section" id="python_data_types">
             <header>Python Data Types</header>
             <article>
-                <p></p>
+                <h4>Built-in Data Types</h4>
+                <p>In programming, data type is an important concept. Variables can store data of different types, and different types can do different things. Python has the following data types built-in by default, in these categories:</p>
+                <code>Text Type:	str
+                Numeric Types:	int, float, complex
+                Sequence Types:	list, tuple, range
+                Mapping Type:	dict
+                Set Types:	set, frozenset
+                Boolean Type:	bool
+                Binary Types:	bytes, bytearray, memoryview</code>
+                <h4>Getting the Data Type</h4>
+                <p>You can get the data type of any object by using the type() function:</p>
+                <code>x = 5
+                print(type(x))
+                </code>
+            </article>
+        </section>
+        <section class="main-section" id="python_lists">
+            <header>Python Lists</header>
+            <article>
+                <p>Lists are used to store multiple items in a single variable. Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage. Lists are created using square brackets:
+                    In Python programming, a list is created by placing all the items (elements) inside square brackets [], separated by commas.
+                    It can have any number of items and they may be of different types (integer, float, string etc.).
+                </p>
+                <code>thislist = ["apple", "banana", "cherry"]
+                print(thislist)</code>
+            </article>
+        </section>
+        <section class="main-section" id="python_tuples">
+            <header>Python Tuples</header>
+            <article>
+                <p>Tuples are used to store multiple items in a single variable. Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage. A tuple is a collection which is ordered and unchangeable. Tuples are written with round brackets.</p>
+                <code>thistuple = ("apple", "banana", "cherry")
+                print(thistuple)
+                </code>
+            </article>
+        </section>
+        <section class="main-section" id="python_functions">
+            <header>Python Functions</header>
+            <article>
+                <p>A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. A function can return data as a result.</p>
+                <h4>Creating a Function</h4>
+                <p>In Python a function is defined using the def keyword:</p>
+                <code>def my_function():
+                print("Hello from a function")
+                </code>
+                <h4>Calling a Function</h4>
+                <p>To call a function, use the function name followed by parenthesis:</p>
+                <code>def my_function():
+                print("Hello from a function")              
+                my_function()</code>
+                <h4>Arguments</h4>
+                <p>Information can be passed into functions as arguments. Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma. The following example has a function with one argument (fname). When the function is called, we pass along a first name, which is used inside the function to print the full name:</p>
+                <code>def my_function(fname):
+                print(fname + " Refsnes")
+                my_function("Emil")
+                my_function("Tobias")
+                my_function("Linus")
+                </code>
             </article>
         </section>
     </main>
